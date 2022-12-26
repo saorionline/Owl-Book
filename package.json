@@ -1,0 +1,34 @@
+{
+  "name": "debian-blusansei",
+  "version": "1.0.0",
+  "description": "multiplayer logic representation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saorionline/debian-blusansei.git"
+  },
+  "keywords": [
+    "profe",
+    "diana",
+    "martinez",
+    "platzi",
+    "back-end",
+    "respuesta",
+    "promesa",
+    "servidor",
+    "cliente"
+  ],
+  "author": "SaoriOnline <saorionline021@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saorionline/debian-blusansei/issues"
+  },
+  "homepage": "https://github.com/saorionline/debian-blusansei#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}

@@ -1,0 +1,22 @@
+.button-start {
+    border-radius: 1rem;
+    width: 10rem;
+    height: 10rem;
+    border: none;
+    margin: 2rem;
+    font-size: 2rem; 
+}
+
+.pass-page:hover {
+    background-color: #BA94D1;
+}
+
+.frame {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-margin{
+    margin-top: 1rem;
+}

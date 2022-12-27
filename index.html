@@ -5,8 +5,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Welcome Guest</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/animal.css">
 </head>
 <body>
     <nav>
@@ -19,75 +20,12 @@
         </ul>
     </nav>
     <main>
-        <picture>
-            <source media="" srcset="">
-            <img class="" src="" alt="">
-        </picture>
-        <label>
-            <input type="text" name="login" placeholder="name">
-        </label>
-        <button>Submit</button>
-
+        <section id="place-map" class="frame">
+            <h1 class="title"> </h1>
+            <canvas id="mapper" class="map-margin"></canvas>
+            <button id="start-read" class="button-start"> Start </button>
+        </section>
     </main>
-    
-    <aside class="priority">
-        <section class="container-random">
-            <h1 class="menu">Coffee</h1>
-            
-        </section>
-    </aside>
-    <aside class="content-detailed">
-        <section class="random-space">
-            <h1 class="finding-point">Shops</h1>
-            <h1 class="letter-case">Origin</h1>
-            <h1 class="typo-graphics">Combos</h1>
-        </section>
-    </aside>
-    <section class="mosaic-people">
-        <article class="card-handler"> 
-            <picture class="profile-user-1">
-                <source media="(max-width: 300px)" srcset="./Users/fotosRick/rick_simBig-01.jpg">
-                <source media="(max-width: 150px)" srcset="./Users/fotosRick/rick_medium.jpg">
-                <source media="(max-width: 50px)" srcset="./Users/fotosRick/rick_sim1S.jpg">
-                <img src="./Users/fotosRick/rick_simBig-01.jpg" alt="fake photo of the app user maybe using the web">
-            </picture>
-                <ul class="data-sheet-1">
-                    <li>
-                    <data value="1">Rick Thomson</data>
-                    <data value="2">🚐</data>
-                    </li>
-                </ul>
-        </article>
-        <article class="card-handler">
-            <picture class="profile-rosi-2">
-                <source media="(max-width: 300px)" srcset="./Users/rosi/RosiL.jpg">
-                <source media="(max-width: 150px)" srcset="./Users/rosi/RosiM.jpg">
-                <source media="(max-width: 50px)" srcset="./Users/rosi/RosiS.jpg">
-                <img src="./Users/rosi/RosiL.jpg" alt="woman to show what kind of person is interested in the service">
-            </picture>
-            <ul class="data-sheet-2">
-                <li>
-                    <data value="3">Rosi Denver</data>
-                    <data value="4">🏡</data>
-                </li>
-            </ul>
-        </article>
-        
-        <article class="card-handler">
-            <picture class="profile-edvard-3">
-                <source media="(max-width: 300px)" srcset="./Users/edvard/EdvardL.jpg">
-                <source media="(max-width: 150px)" srcset="./Users/edvard/EdvardM.jpg">
-                <source media="(max-width: 50px)" srcset="./Users/edvard/EdvardS.jpg">
-                <img src="./Users/edvard/EdvardM.jpg" alt="woman to show what kind of person is interested in the service">
-            </picture>
-            <ul class="data-sheet-3">
-                <li>
-                    <data value="5">Edvard M</data>
-                    <data value="6">🚁</data>
-                </li>
-            </ul>
-        </article>
-        
-    </section>
+    <script src="./js/bird-path.js"></script>
 </body>
 </html>

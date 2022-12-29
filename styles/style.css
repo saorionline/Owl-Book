@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@200&display=swap');
+
 /* paleta */
 :root {
     --boss-color: #fcc6e0;
@@ -10,145 +12,62 @@
 }
 
 * {
+    box-sizing: border-box;
     margin:0;
     padding: 0;
-    font-family: sans-serif;
-    font-size: 22px;
-    color: var(--fourth-color)
 }
 
-/* menu de navegación */
-
- nav {
-    display: grid;
-    background-color: #fcc6e0;
-    height: 123px;
-
-}
-
-ul.map-web-site > li {
-    padding: 10px 0;
-    margin: 33px 0 3px 33px;
+ul {
+    justify-content: center;
     list-style: none;
-    display: inline-block
+    display: grid;
+    grid-template-columns: 100px 100px 100px;  
 }
 
-li:nth-child(4) {
-    font-family: serif;
-}
 
-nav > li {
-    position: absolute
+li:nth-child(4)::after {
+    content: "😀"
 }
 
 
 nav > .yellow-box .blue-box .magenta-box .cyan-box .apple-box  {
-    position: absolute;
-    color: #BA57D9;
-    display: inline-block;
+    color: #F3CCFF;
 }
 
-/* principal 
-
-main {
-    background: #5778D9;
-    opacity: 0.2;
-    padding: 110px;
-    display: grid;
+img {
+    width: auto;
+    height: 4rem;
 }
 
-main > input::placeholder {
-    color: #2dc9fa;
+
+a {
+    color: var(--first-color);
+    text-decoration: none;
 }
 
-button {
-    color: #2d75fa;
-    padding: 13px;
+picture {
+    margin: 30px 10px 10px 10px;
+}
+/* nav */
+li.yellow-box {
+    margin-top: 10px
+}
+li.magenta-box {
+    margin-top: 10px
+}
+li.cyan-box {
+    margin-top: 10px
+}
+/* footer */
+
+h2.finding-point {
+    margin-top: 14px;
 }
 
-/* segunda fila 
-aside.priority > section h1.menu {
-    width: 100%;
-    height: 500px;
-    background: var(--first-color);
-    color: white;
-    padding: 40px;
-    box-sizing: border-box;
-    margin: 20px
+h2.second-point {
+    margin-top: 14px;
 }
 
-.container-random {
-    display: flex;
-    flex-direction: column;
-    width: 100%
+h2.third-point {
+    margin-top: 14px;
 }
-
-/* tercera fila de comunicación */
-
-/* .random-space {
-    display: grid;
-    border-left: 1px solid;
-    width: 600px;
-    height: auto;
-    margin: 20px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-}
-/*Shops
-aside.content-detailed > section h1.finding-point {
-    margin: 20px;
-    padding: 20px;
-}
-/*Origin
-aside.content-detailed > section > h1.letter-case {
-    color: var(--fourth-color);
-    margin: 20px;
-    padding: 20px;
-}
-/*Combos
-aside.content-detailed > section> h1.typo-graphics {
-    color: var(--second-color);
-    margin: 20px;
-    padding: 20px;
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-} */
-
-/* presentación del equipo */
-/* .mosaic-people {
-    background: linear-gradient(var(--boss-color),var(--light-heaven));
-    width: 100%;
-    height: 444px; 
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(1, auto);
-    justify-items: center;
-    align-items: center;
-}
-
-.card-handler {
-    background: white;
-    border-radius: 8px;
-    width: 200px;
-    height: 240px;
-    overflow: hidden;
-}
-
-.card-handler > .profile-user-1 img {
-    width: 100%;
-
-}
-
-.card-handler > .profile-rosi-2 img {
-    width: 100%;
-}
-
-.card-handler > .profile-edvard-3 img {
-    width: 100%;
-}
-
-.card-handler ul {
-    margin-left: 15px;
-    margin-bottom: 10px;
-    list-style: none;
-}  */

@@ -29,7 +29,22 @@ footer {
     grid-template-columns: 100px 100px 100px;
     justify-content: center;
 }
+@media (max-width: 350px) {
 
+    body > header{
+        width: 50%;
+    }
+    nav {
+        width: 50%;
+    }
+    main {
+        width: 50%;
+    }
+    footer {
+        width: 50%;
+    }
+    
+}
 
 
 

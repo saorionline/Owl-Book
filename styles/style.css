@@ -58,6 +58,9 @@ li.magenta-box {
 li.cyan-box {
     margin-top: 10px
 }
+li.yellow-box:hover {
+    color: grey;
+}
 /* footer */
 
 h2.finding-point {

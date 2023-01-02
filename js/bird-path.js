@@ -4,7 +4,7 @@ let startPress = document.getElementById('start-read')
 let longMeasure
 //anchoDelMapa
 let latitude = window.innerWidth
-longMeasure = latitude * 555 / 999
+longMeasure = latitude * 815 / 1400
 //intervalo
 let pieceTime
 // ver-mapa
